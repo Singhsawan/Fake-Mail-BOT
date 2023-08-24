@@ -9,3 +9,4 @@ lxml
 pykeyboard
 beautifulsoup4
 Random-Word-Generator
+coroutine
