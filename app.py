@@ -81,9 +81,9 @@ async def start(_, message: Message):
     return await add_served_user(message.from_user.id) 
     
 #********************************************************************************
-API1='https://www.tempumail.com/api/v1/?action=getDomainList'
-API2='https://www.tempumail.com/api/v1/?action=getMessages&login='
-API3='https://www.tempumail.com/api/v1/?action=readMessage&login='
+API1='https://www.zemail.me/api/v1/?action=getDomainList'
+API2='https://www.zemail.me/api/v1/?action=getMessages&login='
+API3='https://www.zemail.me/api/v1/?action=readMessage&login='
 #********************************************************************************
 
 create = InlineKeyboardMarkup(
